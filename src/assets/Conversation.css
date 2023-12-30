@@ -1,0 +1,95 @@
+
+.conversation-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.message-list {
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto;
+  flex-grow: 1;
+  margin-bottom: 70px;
+}
+
+.sent {
+  background-color: #bbdcec;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px;
+  text-align: right;
+}
+
+.received {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px;
+  text-align: left;
+}
+
+.message-content {
+  display: flex;
+  align-items: center;
+}
+
+.message-content img {
+  margin-right: 10px;
+  border-radius: 50%;
+  max-width: 30px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 3%;
+}
+
+.input-container button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.message-info {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.received .message-content {
+  justify-content: flex-start;
+}
+
+.sent .message-content {
+  justify-content: flex-end;
+}
+
+.sent img {
+  order: -1;
+}

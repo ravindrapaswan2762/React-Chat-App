@@ -1,0 +1,25 @@
+.NewConversationBox{
+
+    display:  flex;
+    flex-wrap: nowrap;
+    flex-shrink: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.textArea{
+    height: 10%;
+    width: 90%;
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+.button{
+    padding:  0px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    border: 2px solid green;
+    border-radius: 4px;
+
+}

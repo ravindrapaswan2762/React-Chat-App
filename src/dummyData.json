@@ -1,0 +1,48 @@
+ {
+  "conversations": [
+    {
+      "id": 1,
+      "contactName": "John Doe",
+      "lastMsg": "I'm fine",
+      "messages": [
+        { "text": "Hello", "sender": "me", "time": "2023-01-01T12:00:00Z"},
+        { "text": "Hi", "sender": "user", "time": "2023-01-01T12:05:00Z" },
+        { "text": "How are U?", "sender": "me", "time": "2023-01-01T12:10:00Z" },
+        { "text": "I'm fine", "sender": "user", "time": "2023-01-01T12:15:00Z" }
+      ]
+      
+    },
+    {
+      "id": 2,
+      "contactName": "Will Smith",
+      "lastMsg": "Hi",
+      "messages": [
+        { "text": "Hello", "sender": "me", "time": "2023-01-01T12:00:00Z"},
+        { "text": "Hi", "sender": "user", "time": "2023-01-01T12:00:00Z" }
+
+       
+      ]
+    },
+    {
+      "id": 3,
+      "contactName": "Charley",
+      "lastMsg": "I'm good, U?",
+      "messages": [
+        { "text": "hi Charley!", "sender": "me", "time": "2023-01-01T12:00:00Z" },
+        { "text": "Hi", "sender": "user", "time": "2023-01-01T12:00:00Z" },
+        { "text": "How are U?", "sender": "me", "time": "2023-01-01T12:00:00Z" },
+        { "text": "I'm good, U?", "sender": "user", "time": "2023-01-01T12:00:00Z" }
+      ]
+    },
+    {
+      "id": 4,
+      "contactName": "Tony Stark",
+      "lastMsg": "Hello!",
+      "messages": [
+        { "text": "Heyyy!", "sender": "me", "time": "2023-01-01T12:00:00Z" },
+        { "text": "Hello!", "sender": "user", "time": "2023-01-01T12:00:00Z" }
+       
+      ]
+    }
+  ]
+}
